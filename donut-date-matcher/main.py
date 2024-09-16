@@ -101,7 +101,7 @@ if __name__ == '__main__':
 
     new_matches = create_matches(all_members, pairing_dict)
 
-    df[date] = new_matches
+    df[f"{date} Match"] = new_matches
 
     print(df)
 
